@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form app di musica</title>
+
+  <style>
+    body{
+      font-family: poppins;
+      margin-left: 20px;
+    }
+    input{
+      padding: 10px;
+      margin-bottom: 10px;
+      font-family: poppins;
+    }
+    label{
+    margin-left: 5px;
+    }
+    button{
+      font-family: poppins;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: gold;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Music Streaming</h1>
+  <h3>Compila il form per registrarti</h3>
+  <form onsubmit="alert('Registrazione inviata!')">
+    <div>
+      <input type="text" placeholder="Nome">
+    </div>
+    <div>
+      <input type="text" placeholder="Cognome">
+    </div>
+    <div>
+      <input type="email" placeholder="Email">
+    </div>
+    <div>
+      <input type="password" placeholder="Password">
+    </div>
+    <div>
+      <input type="date">
+    </div>
+    <div>
+      <input type="number" placeholder="Telefono">
+    </div>
+    <div>
+      <h3>
+        Indica i tuoi gusti musicali
+      </h3>
+      <div>
+        <input type="checkbox"><label>Classica</label>
+      </div>
+      <div>
+        <input type="checkbox"><label>Pop</label>
+      </div>
+      <div>
+        <input type="checkbox"><label>Rock</label>
+      </div>
+      <div>
+        <input type="checkbox"><label>Jazz</label>
+      </div>
+      <div>
+        <input type="checkbox"><label>Metal</label>
+      </div>
+      <div style="margin-top: 10px;">
+        <input type="radio">Accetto i termini e le condizioni
+      </div>
+      <div>
+        <button type="submit">
+          Invia registrazione
+        </button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
